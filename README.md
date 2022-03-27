@@ -24,3 +24,22 @@ Split an input string into pairs of 2 characters, add underscore if the last let
 ```
 
 [View Solution](src/SplitString.java)
+
+- - -
+### Total pages in a book
+
+Given a number (summary) that is the sum of all digits of all the pages in a book, return the number of pages.
+
+**Language:** Java
+
+**Example:**
+
+When summary = *15*, then the number of pages is **12**, as the numbers 1 to 12 have 15 digits in total: ``123456789101112`` 
+
+```
+15 ->  12
+31 ->  20
+```
+
+[View Solution](src/PagesInABook.java)
+
