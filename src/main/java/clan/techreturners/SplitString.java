@@ -1,9 +1,9 @@
-package com.techreturners;
+package clan.techreturners;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class SplitString {
 
     public static String[] solution(String s) {
         // This regex will split the string in pairs of characters
@@ -22,6 +22,8 @@ public class Main {
         System.out.println("Enter a string:");
 
         String s = reader.nextLine();
+
+        System.out.println("\nResult:");
 
         System.out.println(Arrays.stream(solution(s)).toList());
     }

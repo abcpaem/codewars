@@ -1,8 +1,8 @@
-package com.techreturners;
+package clan.techreturners;
 
 import java.util.Scanner;
 
-public class Main {
+public class PagesInABook {
 
     public static int solution(int summary) {
         /* pagePeppa is the number of pages that have as many digits as pagePeppa's string length,
@@ -36,6 +36,8 @@ public class Main {
         System.out.println("Enter book summary:");
 
         int summary = reader.nextInt();
+
+        System.out.println("\nResult:");
 
         System.out.println(solution(summary));
     }
