@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PagesInABook {
 
-    public static int solution(int summary) {
+    public static int getPagesInABook(int summary) {
         /* pagePeppa is the number of pages that have as many digits as pagePeppa's string length,
            I was unable to find a proper name, so I asked my kid to name this variable that also has alliteration xD
            Example:
@@ -39,6 +39,6 @@ public class PagesInABook {
 
         System.out.println("\nResult:");
 
-        System.out.println(solution(summary));
+        System.out.println(getPagesInABook(summary));
     }
 }
