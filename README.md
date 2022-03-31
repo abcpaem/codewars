@@ -1,5 +1,5 @@
 # Codewars (Just for Fun)
-This is my gallery for Codewars challenges. This repository contains extracts of code in different languages for educational purposes.
+This is my gallery for Codewars challenges. The Java code in this repository is intended for educational purposes.
 
 ### Goal
 Sometimes we are stuck thinking and thinking how to solve something in particular and we end up going nowhere and discouraged.
@@ -11,9 +11,20 @@ If you are learning how to code, just copying a whole solution from others is no
 
 ### How to run the application
 1) cd to the project root folder in the command line
-2) mvn compile
-3) mvn exec:java -Dexec.mainClass=clan.techreturners.Main
+2) `mvn compile`
+3) `mvn exec:java -Dexec.mainClass=clan.techreturners.Main`
 
+To run tests:
+1) `mvn test`
+
+## Technology
+This project was built using:
+- Java version 17.0.2
+- JUnit 5.8.2 for unit testing
+- Apache Maven 3.8.5 as project manager
+- Community Edition for the IntelliJ 2021.3.2 development environment.
+
+---
 ## Gallery
 
 ### Split Strings
