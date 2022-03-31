@@ -39,7 +39,7 @@ Split an input string into pairs of 2 characters, add underscore if the last let
 "yours" ->  ["yo", "ur", "s_"]
 ```
 
-[View Solution](src/main/java/clan/techreturners/SplitString.java)
+[View Solution](src/main/java/clan/techreturners/SplitStrings.java)
 
 - - -
 ### Total pages in a book

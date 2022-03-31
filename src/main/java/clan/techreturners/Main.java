@@ -19,7 +19,7 @@ public class Main {
 
             switch (choice) {
                 case "1":
-                    SplitString.main(null);
+                    SplitStrings.main(null);
                     break;
                 case "2":
                     PagesInABook.main(null);

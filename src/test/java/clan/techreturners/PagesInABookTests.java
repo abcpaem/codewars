@@ -13,7 +13,7 @@ public class PagesInABookTests {
         // @CsvSource is doing the Arrange, as it is injecting the testing values as parameters
 
         // Act
-        int pagesInABook = PagesInABook.getPagesInABook(summary);
+        int pagesInABook = PagesInABook.getPages(summary);
 
         // Assert
         assertEquals(expectedValue, pagesInABook);

@@ -3,9 +3,9 @@ package clan.techreturners;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SplitString {
+public class SplitStrings {
 
-    public static String[] solution(String s) {
+    public static String[] getStrings(String s) {
         // This regex will split the string in pairs of characters
         String[] pairs = s.split("(?<=\\G..)");
 
@@ -25,6 +25,6 @@ public class SplitString {
 
         System.out.println("\nResult:");
 
-        System.out.println(Arrays.stream(solution(s)).toList());
+        System.out.println(Arrays.stream(getStrings(s)).toList());
     }
 }

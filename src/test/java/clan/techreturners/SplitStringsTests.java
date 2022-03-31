@@ -4,28 +4,28 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class SplitStringTests {
+public class SplitStringsTests {
     @Test
-    void checkSolution() {
+    void checkGetStrings() {
         // Arrange
         String input = "mine";
         String[] expectedResult = new String[]{"mi", "ne"};
 
         // Act
-        String[] result = SplitString.solution(input);
+        String[] result = SplitStrings.getStrings(input);
 
         // Assert
         assertArrayEquals(expectedResult, result);
     }
 
     @Test
-    void checkSolutionWhenLastLetterIsSingle() {
+    void checkGetStringsWhenLastLetterIsSingle() {
         // Arrange
         String input = "yours";
         String[] expectedResult = new String[]{"yo", "ur", "s_"};
 
         // Act
-        String[] result = SplitString.solution(input);
+        String[] result = SplitStrings.getStrings(input);
 
         // Assert
         assertArrayEquals(expectedResult, result);
