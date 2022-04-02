@@ -59,3 +59,19 @@ When summary = *15*, then the number of pages is **12**, as the numbers 1 to 12 
 
 [View Solution](src/main/java/clan/techreturners/PagesInABook.java)
 
+- - -
+### Simple Pig Latin
+
+The first letter of each word must be moved to the end of it and also add "ay", punctuation marks remain untouched.
+
+**Language:** Java
+
+**Example:**
+
+```
+"Peppa likes Latin" ->  "eppaPay ikeslay atinLay"
+"This is so cool !" ->  "hisTay siay osay oolcay !"
+```
+
+[View Solution](src/main/java/clan/techreturners/SimplePigLatin.java)
+
