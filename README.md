@@ -75,3 +75,28 @@ The first letter of each word must be moved to the end of it and also add "ay", 
 
 [View Solution](src/main/java/clan/techreturners/SimplePigLatin.java)
 
+- - -
+### Strip Comments
+
+Strip all the text following any set of comment markers passed in. White spaces at the end of the line should be trimmed.
+
+**Language:** Java
+
+**Example:**
+
+For the following given string:
+```
+Comment !word stripped
+same here
+tomato, avocado # and tangerine
+```
+
+The expected output would be:
+```
+Comment
+same here
+tomato, avocado
+```
+
+[View Solution](src/main/java/clan/techreturners/StripComments.java)
+

@@ -12,6 +12,7 @@ public class Main {
             System.out.println(" 1 - Split string");
             System.out.println(" 2 - Pages in a book");
             System.out.println(" 3 - Simple Pig Latin");
+            System.out.println(" 4 - Strip Comments");
             System.out.println();
             System.out.println("Which one do you want to run (type 'q' to quit)?:");
 
@@ -27,6 +28,9 @@ public class Main {
                     break;
                 case "3":
                     SimplePigLatin.main(null);
+                    break;
+                case "4":
+                    StripComments.main(null);
                     break;
             }
         }
