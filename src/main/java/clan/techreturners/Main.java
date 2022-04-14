@@ -13,6 +13,7 @@ public class Main {
             System.out.println(" 2 - Pages in a book");
             System.out.println(" 3 - Simple Pig Latin");
             System.out.println(" 4 - Strip Comments");
+            System.out.println(" 5 - Mexican wave");
             System.out.println();
             System.out.println("Which one do you want to run (type 'q' to quit)?:");
 
@@ -20,18 +21,11 @@ public class Main {
             System.out.println();
 
             switch (choice) {
-                case "1":
-                    SplitStrings.main(null);
-                    break;
-                case "2":
-                    PagesInABook.main(null);
-                    break;
-                case "3":
-                    SimplePigLatin.main(null);
-                    break;
-                case "4":
-                    StripComments.main(null);
-                    break;
+                case "1" -> SplitStrings.main(null);
+                case "2" -> PagesInABook.main(null);
+                case "3" -> SimplePigLatin.main(null);
+                case "4" -> StripComments.main(null);
+                case "5" -> MexicanWave.main(null);
             }
         }
     }
