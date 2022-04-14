@@ -103,9 +103,9 @@ tomato, avocado
 - - -
 ### Mexican wave
 
-The goal is to turn a string into a Mexican wave, where an uppercase later would be like a person standing. 
+The goal is to turn a string into a Mexican wave, where an uppercase letter would be like a person standing. 
 
-Input will always be in lowercase and if there is any whitespace then it just needs to be passed over.  
+Input will always be in lowercase and if there is any whitespace then just pass it over.  
 
 **Language:** Java
 
@@ -115,5 +115,5 @@ Input will always be in lowercase and if there is any whitespace then it just ne
 "wave me!" ->  ["Wave me!", "wAve me!", "waVe me!", "wavE me!", "wave Me!", "wave mE!"]
 ```
 
-[View Solution](src/main/java/clan/techreturners/SimplePigLatin.java)
+[View Solution](src/main/java/clan/techreturners/MexicanWave.java)
 
