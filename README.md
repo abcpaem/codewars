@@ -117,3 +117,18 @@ Input will always be in lowercase and if there is any whitespace then just pass 
 
 [View Solution](src/main/java/clan/techreturners/MexicanWave.java)
 
+- - -
+### Roman numerals encoder
+
+Create a function taking a positive integer as its parameter and returning a string containing the Roman Numeral representation of that integer.
+
+**Language:** Java
+
+**Examples:**
+
+```
+1000 ->  M
+452 ->  CDLII
+```
+
+[View Solution](src/main/java/clan/techreturners/RomanNumeralsEncoder.java)
