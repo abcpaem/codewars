@@ -132,3 +132,19 @@ Create a function taking a positive integer as its parameter and returning a str
 ```
 
 [View Solution](src/main/java/clan/techreturners/RomanNumeralsEncoder.java)
+
+- - -
+### Roman numerals decoder
+
+Create a function that takes a roman numeral as parameter and returns its representation in arabic number.
+
+**Language:** Java
+
+**Examples:**
+
+```
+M -> 1000
+CDLII -> 452  
+```
+
+[View Solution](src/main/java/clan/techreturners/RomanNumeralsDecoder.java)

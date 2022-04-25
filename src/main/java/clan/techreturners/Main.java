@@ -15,6 +15,7 @@ public class Main {
             System.out.println(" 4 - Strip Comments");
             System.out.println(" 5 - Mexican wave");
             System.out.println(" 6 - Roman numerals encoder");
+            System.out.println(" 7 - Roman numerals decoder");
             System.out.println();
             System.out.println("Which one do you want to run (type 'q' to quit)?:");
 
@@ -28,6 +29,7 @@ public class Main {
                 case "4" -> StripComments.main(null);
                 case "5" -> MexicanWave.main(null);
                 case "6" -> RomanNumeralsEncoder.main(null);
+                case "7" -> RomanNumeralsDecoder.main(null);
             }
         }
     }
