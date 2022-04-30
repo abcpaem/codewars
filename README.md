@@ -39,7 +39,7 @@ Split an input string into pairs of 2 characters, add underscore if the last let
 "yours" ->  ["yo", "ur", "s_"]
 ```
 
-[View Solution](src/main/java/clan/techreturners/SplitStrings.java)
+[View Solution](src/main/java/clan/techreturners/katas/SplitStrings.java)
 
 - - -
 ### Total pages in a book
@@ -57,7 +57,7 @@ When summary = *15*, then the number of pages is **12**, as the numbers 1 to 12 
 31 ->  20
 ```
 
-[View Solution](src/main/java/clan/techreturners/PagesInABook.java)
+[View Solution](src/main/java/clan/techreturners/katas/PagesInABook.java)
 
 - - -
 ### Simple Pig Latin
@@ -73,7 +73,7 @@ The first letter of each word must be moved to the end of it and also add "ay", 
 "This is so cool !" ->  "hisTay siay osay oolcay !"
 ```
 
-[View Solution](src/main/java/clan/techreturners/SimplePigLatin.java)
+[View Solution](src/main/java/clan/techreturners/katas/SimplePigLatin.java)
 
 - - -
 ### Strip Comments
@@ -98,7 +98,7 @@ same here
 tomato, avocado
 ```
 
-[View Solution](src/main/java/clan/techreturners/StripComments.java)
+[View Solution](src/main/java/clan/techreturners/katas/StripComments.java)
 
 - - -
 ### Mexican wave
@@ -115,7 +115,7 @@ Input will always be in lowercase and if there is any whitespace then just pass 
 "wave me!" ->  ["Wave me!", "wAve me!", "waVe me!", "wavE me!", "wave Me!", "wave mE!"]
 ```
 
-[View Solution](src/main/java/clan/techreturners/MexicanWave.java)
+[View Solution](src/main/java/clan/techreturners/katas/MexicanWave.java)
 
 - - -
 ### Roman numerals encoder
@@ -131,7 +131,7 @@ Create a function taking a positive integer as its parameter and returning a str
 452 ->  CDLII
 ```
 
-[View Solution](src/main/java/clan/techreturners/RomanNumeralsEncoder.java)
+[View Solution](src/main/java/clan/techreturners/katas/RomanNumeralsEncoder.java)
 
 - - -
 ### Roman numerals decoder
@@ -147,4 +147,4 @@ M -> 1000
 CDLII -> 452  
 ```
 
-[View Solution](src/main/java/clan/techreturners/RomanNumeralsDecoder.java)
+[View Solution](src/main/java/clan/techreturners/katas/RomanNumeralsDecoder.java)
