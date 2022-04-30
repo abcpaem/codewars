@@ -12,7 +12,7 @@ If you are learning how to code, just copying a whole solution from others is no
 ### How to run the application
 1) cd to the project root folder in the command line
 2) `mvn compile`
-3) `mvn exec:java -Dexec.mainClass=clan.techreturners.Main`
+3) `mvn exec:java -Dexec.mainClass=clan.techreturners.katas.Main`
 
 To run tests:
 1) `mvn test`

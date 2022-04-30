@@ -1,4 +1,4 @@
-package clan.techreturners;
+package clan.techreturners.katas;
 
 import org.junit.jupiter.api.Test;
 

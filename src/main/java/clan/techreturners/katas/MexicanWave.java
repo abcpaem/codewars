@@ -1,4 +1,4 @@
-package clan.techreturners;
+package clan.techreturners.katas;
 
 import java.util.ArrayList;
 import java.util.Arrays;
