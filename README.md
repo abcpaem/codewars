@@ -148,3 +148,24 @@ CDLII -> 452
 ```
 
 [View Solution](src/main/java/clan/techreturners/katas/RomanNumeralsDecoder.java)
+
+- - -
+### Make Spiral
+
+Create an NxN spiral with a given N size, where the snake made with '1' cannot touch itself.
+
+**Language:** Java
+
+**Examples:**
+
+For N = 5, the spiral returned will look like this:
+```
+[[1, 1, 1, 1, 1],
+ [0, 0, 0, 0, 1],
+ [1, 1, 1, 0, 1],
+ [1, 0, 0, 0, 1],
+ [1, 1, 1, 1, 1]]
+```
+
+[View Solution](src/main/java/clan/techreturners/katas/MakeSpiral.java)
+
