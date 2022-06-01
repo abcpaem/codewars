@@ -39,12 +39,17 @@ public class MakeSpiral {
     }
 
     public static void main(String[] args) {
+        final String ANSI_GREEN = "\u001B[32m";
+        final String ANSI_RESET = "\u001B[0m";
+
         Scanner reader = new Scanner(System.in);
 
         System.out.println("Please enter the size of the spiral:");
 
         int size = reader.nextInt();
 
-        System.out.println(Arrays.deepToString(getSpiral(size)).replace("],", "],\n"));
+        System.out.println(Arrays.deepToString(getSpiral(size))
+                .replace("1", ANSI_GREEN + "1" + ANSI_RESET)
+                .replace("],", "],\n"));
     }
 }
