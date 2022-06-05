@@ -1,13 +1,14 @@
-# Codewars (Just for Fun)
-This is my gallery for Codewars challenges. The Java code in this repository is intended for educational purposes.
+# Kata Gallery
+This is my personal gallery for programming challenges known as kata.
+
+### What is a kata?
+
+A Kata in martial arts means “a system of individual training exercises”. Just like in martial arts, coding also requires consistent practise to hone in the skill.
 
 ### Goal
-Sometimes we are stuck thinking and thinking how to solve something in particular and we end up going nowhere and discouraged.
+The purpose of these code extracts is to give other developers some ideas in how to solve certain challenges posted in software developers training platforms. 
 
-The purpose of these code extracts is to give other developers some ideas in how to solve certain challenges.
-
-### Important Notes
-If you are learning how to code, just copying a whole solution from others is not going to help you learn, but there is no harm in analysing others code for learning purposes.
+**Note:** The Java code in this repository is intended for educational purposes. If you are learning how to code, just copying a whole solution from others is not going to help you learn, but there is no harm in analysing others code for learning purposes.
 
 ### How to run the application
 1) cd to the project root folder in the command line
