@@ -17,6 +17,7 @@ public class Main {
             System.out.println(" 6 - Roman numerals encoder");
             System.out.println(" 7 - Roman numerals decoder");
             System.out.println(" 8 - Make a spiral");
+            System.out.println(" 9 - Snail sort");
             System.out.println();
             System.out.println("Which one do you want to run (type 'q' to quit)?:");
 
@@ -32,6 +33,7 @@ public class Main {
                 case "6" -> RomanNumeralsEncoder.main(null);
                 case "7" -> RomanNumeralsDecoder.main(null);
                 case "8" -> MakeSpiral.main(null);
+                case "9" -> SnailSort.main(null);
             }
         }
     }

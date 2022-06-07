@@ -157,7 +157,7 @@ Create an NxN spiral with a given N size, where the snake made with '1' cannot t
 
 **Language:** Java
 
-**Examples:**
+**Example:**
 
 For N = 5, the spiral returned will look like this:
 ```
@@ -169,4 +169,32 @@ For N = 5, the spiral returned will look like this:
 ```
 
 [View Solution](src/main/java/clan/techreturners/katas/MakeSpiral.java)
+
+- - -
+### Snail Sort
+
+Given an n x n array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
+
+The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.
+
+**Language:** Java
+
+**Example:**
+
+For n = 5, the generated is:
+```
+[[1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]]
+```
+
+And the snail sort array is:
+```
+[1, 2, 3, 6, 9, 8, 7, 4, 5]
+```
+
+This is the snail pattern followed:
+![Snail Sort](docs/SnailSort.png)
+
+[View Solution](src/main/java/clan/techreturners/katas/SnailSort.java)
 
