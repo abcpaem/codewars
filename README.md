@@ -198,3 +198,26 @@ This is the snail pattern followed:
 
 [View Solution](src/main/java/clan/techreturners/katas/SnailSort.java)
 
+- - -
+### Smaller than me
+
+Write a function that given an array `input`, returns an array containing at each index `i` the amount of numbers that are smaller than `input[i]` to the right.
+
+**Language:** Java
+
+**Example:**
+
+For input:
+```
+[5, 4, 7, 9, 2, 4, 4, 5, 6]
+```
+
+The resulting smaller array will be:
+```
+[4, 1, 5, 5, 0, 0, 0, 0, 0]
+```
+
+**Note**: The console app takes an integer `n` as the input which will be the size of an auto generated input array filled with random numbers from `1` to `n`.
+
+[View Solution](src/main/java/clan/techreturners/katas/Smaller.java)
+
